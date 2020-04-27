@@ -29,7 +29,7 @@ Build Step: (example here might be checkout)
 
 ```
 
-For an example, take a look at the document: [yarn_npm_install___error__bin_sh_failed_with_return_code__1.md](https://github.com/tdevere/AppCenterBuildLog/blob/master/yarn_npm_install___error__bin_sh_failed_with_return_code__1.md)
+For an example, take a look at the document: [yarn-npm-install-error.md](https://github.com/tdevere/AppCenterBuildLog/blob/master/yarn-npm-install-error.md.md)
 
 Note that we're including a PowerShell script [BuildLogAnalyzer.ps1](https://github.com/tdevere/AppCenterBuildLog/blob/master/PowerShellScripts/BuildLogAnalyzer.ps1) which can be used to analyze build logs for known problems identified by this Wiki. If we can identify a problem and solution from build logs alone, we'll work to develop a script for it. Eventually, it may be feasible to start with a build log review from this script to identify known issues without manually searching the logs.
 
@@ -47,7 +47,7 @@ Note that we're including a PowerShell script [BuildLogAnalyzer.ps1](https://git
 1. Fork the main repository
 2. Create a new markdown page. 
 3. Filename Format of the page is (BuildStage_Exact_Error).md
-3. Example: yarn_npm_install___error__bin_sh_failed_with_return_code__1.md
+3. Example: yarn-npm-install-error.md
 4. Use the [template from the intro above](https://github.com/tdevere/AppCenterBuildLog#introduction).
 5. When your changes are complete, open a pull request.
 6. Once out of review, the changes will be merged.
